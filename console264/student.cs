@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace console264
 {
-    public class student 
+    public class student
     {
        protected string? ten;
        protected int tuoi;

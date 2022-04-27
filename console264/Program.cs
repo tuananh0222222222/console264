@@ -7,7 +7,7 @@ using System;
 namespace Program
 {
 
-    class Program : teacher
+    class Program : student
     {
         public static void Main(string[] args)
         {
@@ -21,16 +21,13 @@ namespace Program
 
             // hl.addhello();
 
-           // student std = new student();
+            student std = new student();
 
-           //std.ten = Console.ReadLine();
-           // std.tuoi = int.Parse(Console.ReadLine());
-           // std.gioitinh =Console.ReadLine();
+           std.ten = Console.ReadLine();
+            std.tuoi = int.Parse(Console.ReadLine());
+            std.gioitinh =Console.ReadLine();
 
-           // std.HT();
-
-            
-            
+            std.HT();
             
         }
     }
